@@ -63,3 +63,7 @@ body {
   padding: 0.5vh 0 0.5vh 0;
   width: 30vh;
 }
+
+.botao-inicial:active {
+  box-shadow: 0.2vh 0.2vh 0.2vh gray;
+}
