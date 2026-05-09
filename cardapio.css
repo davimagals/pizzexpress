@@ -44,7 +44,7 @@ body {
   margin-bottom: 1.6vh;
 }
 
-#divisor {
+.divisor {
   border: 1px solid #00914d;
   width: 90vw;
   margin: 0 auto;
@@ -98,10 +98,33 @@ body {
   height: 2.6vh;
 }
 
-#destaques {
+#titulo-desc {
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-size: 1.9vh;
+  text-align: left;
   padding: 0 2vh;
+  margin: 1.5vh 0 0 0;
+  color: #ffa705;
+  text-shadow:
+    1.5px 1.5px #be0411,
+    -1.5px -1.5px #be0411,
+    -1.5px 1.5px #be0411,
+    1.5px -1.5px #be0411;
 }
 
-#titulo-desc {
-  text-align: left;
+#destaques {
+  padding: 0 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vh;
+}
+
+.dest-pizza {
+  width: calc(50% - 1vh);
+  border: 2px solid #00914d;
+}
+
+.dest-pizza img {
+  width: 90%;
 }
