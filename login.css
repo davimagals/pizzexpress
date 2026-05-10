@@ -15,6 +15,13 @@ body {
   height: 8vh;
 }
 
+#seta-voltar {
+  height: 4.2vh;
+  float: left;
+  margin-top: 2vh;
+  margin-left: 2vh;
+}
+
 #logo {
   height: 20vh;
   width: 20vh;
@@ -38,13 +45,6 @@ body {
   font-weight: 250;
   font-style: italic;
   letter-spacing: 0.1vh;
-}
-
-#seta-voltar {
-  height: 4.2vh;
-  float: left;
-  margin-top: 2vh;
-  margin-left: 2vh;
 }
 
 #formulario {
