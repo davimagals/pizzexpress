@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-size: 200vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+}
+
+#barra {
+  background: #be0411;
+  height: 8vh;
+}
+
+#seta-voltar {
+  height: 4.2vh;
+  float: left;
+  margin-top: 2vh;
+  margin-left: 2vh;
+}
+
+#imagem {
+  height: 25vh;
+  margin: 10vh 0 5vh;
+}
+
+#titulo {
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-size: 5vw;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 2vh;
+  margin: 0 0 4vh 0;
+  color: #ffa705;
+  text-shadow:
+    1.5px 1.5px #be0411,
+    -1.5px -1.5px #be0411,
+    -1.5px 1.5px #be0411,
+    1.5px -1.5px #be0411;
+}
+
+#informacoes {
+  background: #a83e30;
+  color: white;
+  font-size: 6vw;
+  padding: 5vw 0;
+  text-align: left;
+  border-radius: 4vh;
+  margin: 0 auto;
+  width: 85vw;
+}
+
+#informacoes h3 {
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-size: 3.7vw;
+  margin: 0 0 2vh 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#informacoes #preco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 3.5vh;
+  border-top: 1px solid #00914d;
+  border-bottom: 1px solid #00914d;
+}
+
+#informacoes #desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1vh 3.5vh;
+}
+
+#informacoes #desc ul {
+  margin: 0;
+}
+
+#comprar {
+  background: #00914d;
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: white;
+  padding: 1vh 4vh;
+  border: none;
+  border-radius: 3vh;
+  margin: 4vh 0 5vh;
+}
